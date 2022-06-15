@@ -1,0 +1,139 @@
+/* Price calculator --------------------------------------------------------------------------------------- */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+
+.wp-container-1.entry-content.wp-block-post-content {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+    height: 100%;
+    /*background: linear-gradient(91.4deg, rgb(47, 184, 255) 0%, rgb(158, 236, 217) 100%);
+    border: none;
+    border-radius: 30px; 
+    box-shadow: rgb(147 231 221 / 30%) 0px 10px 40px;*/
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 20px;
+}
+
+.date-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.date-content>* {
+    flex: 1 1 auto;
+}
+
+h1,
+h2,
+p,
+label {
+    color: #dfe9f3;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 16px;
+    padding: 16px 0;
+    max-width: 50%;
+    line-height: 1.5;
+}
+
+.filled span {
+    color: #50cc7f;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.date-picker-wrapper {}
+
+.date-picker-wrapper div {
+    display: flex;
+    flex: 1 auto;
+}
+
+.date-picker-wrapper p,
+label {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.date-picker-wrapper input {
+    text-align: center;
+}
+
+
+span#price-person,
+span#price-total {
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.sub-price {
+    color: #003D59;
+    margin: 0px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1200px) {
+
+
+    .wp-container-1.entry-content.wp-block-post-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .wp-container-1.entry-content.wp-block-post-content section {
+
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .date-picker-wrapper div {
+
+        flex-direction: column;
+    }
+}
