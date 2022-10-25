@@ -1,5 +1,5 @@
 # Pricing-Calculator-plugin
-Just a simple booking calculator
+
+Just a simple booking calculator / WordPress Plugin
 
 
-Demo: http://vasil-calculator.tk/
